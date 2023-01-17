@@ -1,15 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
-</head>
-<body>
-    <h1>Hello World!</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo odit qui ratione, sequi nihil odio commodi illum voluptates, harum ducimus deleniti dolores dolore ullam cum facere eius, reiciendis labore repellendus.</p>
-</body>
+  </head>
+  <body>
+    <header>
+      <span>Emma Reed</span>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div>
+          <h1>Emma Reed</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+            vitae officia maxime suscipit quasi rem dolorem, quidem itaque
+            adipisci, sunt consequuntur aliquid architecto, vero eius. Expedita
+            distinctio illum sapiente suscipit!
+          </p>
+          <div>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <!-- move this to contact section -->
+        <!-- <img
+          src="https://images.unsplash.com/photo-1614644147798-f8c0fc9da7f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+          alt="Stock photo headshot"
+          width="420px"
+        /> -->
+      </section>
+      <section id="projects">
+        <h2>Projects of Mine</h2>
+        <!-- box holding projects, needs to be flex -->
+        <div class="flex-container">
+          <!-- project -->
+          <div>
+            <h3>Project 1</h3>
+            <p>
+              A brief summary describing the project and listing technologies
+              used. Minus atque deleniti, qui expedita eius quae iste!
+              Cupiditate ut culpa delectus, quia molestiae fugiat tempora. Culpa
+              explicabo iure consequatur veritatis et.
+            </p>
+            <img
+              src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt="stock image"
+              width="120px"
+            />
+          </div>
+          <!-- project -->
+          <div>
+            <h3>Project 2</h3>
+            <p>
+              A brief summary describing the project and listing technologies
+              used. Minus atque deleniti, qui expedita eius quae iste!
+              Cupiditate ut culpa delectus, quia molestiae fugiat tempora. Culpa
+              explicabo iure consequatur veritatis et.
+            </p>
+            <img
+              src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt="stock image"
+              width="120px"
+            />
+          </div>
+          <!-- project -->
+          <div>
+            <h3>Project 3</h3>
+            <p>
+              A brief summary describing the project and listing technologies
+              used. Minus atque deleniti, qui expedita eius quae iste!
+              Cupiditate ut culpa delectus, quia molestiae fugiat tempora. Culpa
+              explicabo iure consequatur veritatis et.
+            </p>
+            <img
+              src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt="stock image"
+              width="120px"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>hmu lol</h2>
+        <img
+          src="https://images.unsplash.com/photo-1614644147798-f8c0fc9da7f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+          alt="Stock photo headshot"
+          width="420px"
+        />
+        <p>I'm kind of available idk depends on how much $$ we talkin</p>
+        <a href="mailto:emmakatharyn@gmail.com">emmakatharyn@gmail.com</a>
+        <div>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
+      </section>
+    </main>
+
+    <!-- scripts for ion icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
