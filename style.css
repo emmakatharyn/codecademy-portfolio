@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,8 +13,8 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
   font-size: 1.6rem;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 /* DARK MODE STYLING YUH */
@@ -22,6 +26,13 @@ body.dark {
 body.dark a:link,
 body.dark a:visited {
   color: magenta;
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
 }
 
 header {
@@ -60,7 +71,16 @@ nav span.logo {
 }
 
 #hero {
-  height: 64rem;
+  height: fit-content;
+  min-height: 64rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.85),
+      rgba(2, 2, 127, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-flex {
@@ -69,6 +89,8 @@ nav span.logo {
   flex-direction: column;
   justify-content: center;
   gap: 2.4rem;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
   margin-left: 5.6rem;
   margin-bottom: 6.4rem;
 }
@@ -76,6 +98,8 @@ nav span.logo {
 .hero-flex h1 {
   display: inline-block;
   font-size: 6.4rem;
+  font-family: "Source Code Pro", "Courier New", monospace;
+  font-weight: 400;
 }
 
 .hero-paragraph {
@@ -96,9 +120,50 @@ nav span.logo {
 
 .btn.hero-btn:link,
 .btn.hero-btn:visited {
+  font-family: "Source Code Pro", monospace;
   font-size: 2.2rem;
   padding: 2.4rem 4.8rem;
   background-color: rgba(30, 0, 255, 0.735);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+#projects {
+  padding-top: 6.4rem;
+  /* height: 56rem; */
+  height: fit-content;
+}
+
+#projects .flex-container {
+  /* background-color: pink; */
+  width: 100%;
+  display: flex;
+  /* height: 36rem; */
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3.6rem;
+  padding: 4rem;
+}
+
+.project {
+  /* background-color: magenta; */
+  background-color: rgba(30, 0, 255, 0.25);
+  width: 25%;
+  max-width: 32rem;
+  padding: 1.2rem;
+}
+
+.project img {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.project h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.project p {
+  line-height: 1.4;
+  font-size: 1.8rem;
 }
