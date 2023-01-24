@@ -63,15 +63,15 @@ h1 {
   color: rgb(57, 31, 246);
 }
 /* DARK MODE STYLING YUH */
-html.dark nav {
+body.dark nav {
   background-color: #222;
 }
-html.dark body {
+body.dark {
   color: #fff;
   background-color: #333;
 }
 
-html.dark #hero {
+body.dark #hero {
   height: fit-content;
   min-height: 64rem;
   background-image: linear-gradient(
@@ -84,8 +84,12 @@ html.dark #hero {
   background-size: cover;
 }
 
-html.dark a:link,
-html.dark a:visited {
+body.dark #hero p {
+  color: #fff;
+}
+
+body.dark a:link,
+body.dark a:visited {
   color: magenta;
 }
 
