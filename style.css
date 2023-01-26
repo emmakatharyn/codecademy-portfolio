@@ -249,6 +249,7 @@ nav span.logo {
 
 #contact img {
   width: 42rem;
+  max-width: 600px;
 }
 #contact h2 {
   text-align: center;
