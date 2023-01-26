@@ -58,6 +58,21 @@
     text-align: center;
   }
 
+  .hero-flex .btn-flexbox {
+    flex-direction: column;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+
+  .hero-flex .btn-flexbox .btn.hero-btn:link,
+  .hero-flex .btn-flexbox .btn.hero-btn:visited {
+    text-align: center;
+  }
+
+  #projects h2 {
+    margin-bottom: 3.6rem;
+  }
+
   #contact .flex-container {
     flex-direction: column;
   }
@@ -65,7 +80,11 @@
   #contact h2 {
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 3.2rem;
+    margin-bottom: 3.6rem;
+  }
+
+  #contact .contact-info {
+    text-align: center;
   }
 }
 

@@ -203,7 +203,8 @@ nav span.logo {
 }
 
 #projects h2 {
-  margin-left: 5.6rem;
+  /* margin-left: 5.6rem; */
+  text-align: center;
 }
 
 #projects .flex-container {
@@ -235,6 +236,10 @@ nav span.logo {
   margin-bottom: 1rem;
 }
 
+.dark .project h3 {
+  color: magenta;
+}
+
 .project p {
   line-height: 1.4;
   font-size: 1.8rem;
@@ -246,8 +251,8 @@ nav span.logo {
   width: 42rem;
 }
 #contact h2 {
-  text-align: left;
-  margin-left: 5.6rem;
+  text-align: center;
+  /* margin-left: 5.6rem; */
   margin-bottom: 5.6rem;
   /* background-color: black; */
 }
